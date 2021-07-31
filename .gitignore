@@ -1,6 +1,15 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/windows,macos,linux,visualstudio
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,macos,linux,visualstudio
+# Created by https://www.toptal.com/developers/gitignore/api/dotnetcore,visualstudio,visualstudiocode,windows,linux,macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=dotnetcore,visualstudio,visualstudiocode,windows,linux,macos
+
+### DotnetCore ###
+# .NET Core build folders
+bin/
+obj/
+
+# Common node modules locations
+/node_modules
+/wwwroot/node_modules
 
 ### Linux ###
 *~
@@ -45,6 +54,22 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -440,15 +465,8 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # VS Code files for those working on multiple tools
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-*.code-workspace
 
 # Local History for Visual Studio Code
-.history/
 
 # Windows Installer files from build outputs
 
@@ -459,4 +477,4 @@ FodyWeavers.xsd
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,macos,linux,visualstudio
+# End of https://www.toptal.com/developers/gitignore/api/dotnetcore,visualstudio,visualstudiocode,windows,linux,macos
